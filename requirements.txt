@@ -1,0 +1,7 @@
+feedparser
+ccxt
+pandas
+numpy
+nltk
+requests
+python-dotenv
