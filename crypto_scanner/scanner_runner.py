@@ -1,7 +1,7 @@
-from data import fetch_ohlcv
-from indicators import add_indicators
-from scanner import scan_market, market_regime, trade_score
-from derivatives import get_funding_rate
+from .data import fetch_ohlcv
+from .indicators import add_indicators
+from .scanner import scan_market, market_regime, trade_score
+from .derivatives import get_funding_rate, funding_signal
 
 symbols = [
     'BTC/USDT',
